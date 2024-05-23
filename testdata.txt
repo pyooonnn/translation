@@ -1,0 +1,50 @@
+"cities": [
+    {
+        "country": "JP",
+        "distance_unit": "mile",
+        "key": "1203171",
+        "name": "Iwakuni-shi",
+        "region": "Yamaguchi Prefecture",
+        "region_id": "1927"
+    },
+    {
+        "country": "JP",
+        "distance_unit": "mile",
+        "key": "1205825",
+        "name": "Kudamatsu-shi",
+        "region": "Yamaguchi Prefecture",
+        "region_id": "1927"
+    },
+    {
+        "country": "JP",
+        "distance_unit": "mile",
+        "key": "1215274",
+        "name": "Yanai-shi",
+        "region": "Yamaguchi Prefecture",
+        "region_id": "1927"
+    },
+    {
+        "country": "JP",
+        "distance_unit": "mile",
+        "key": "2686161",
+        "name": "Ota-ku",
+        "region": "Tokyo",
+        "region_id": "1922"
+    },
+    {
+        "country": "JP",
+        "distance_unit": "mile",
+        "key": "2686195",
+        "name": "Kawasaki-shi",
+        "region": "Kanagawa Prefecture",
+        "region_id": "1901"
+    }
+]
+            
+            
+POST http://localhost:8000/translate
+Content-Type: application/json
+
+{
+  "text": "Hello, how are you?"
+}
